@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: reactive-programming
+
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/book_db
+    username: postgres
+    password: 1234
+
+#logging:
+#  level:
+#    root: OFF
+#    org.springframework.boot.web.embedded.tomcat: INFO
+
